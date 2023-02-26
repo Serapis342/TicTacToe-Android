@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6272a4">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="360dp"
+        android:layout_height="640dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayout_v"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/tictactoe_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="85dp"
+                    android:text="@string/app_name"
+                    android:textColor="#f8f8f2"
+                    android:textSize="50sp"
+                    android:gravity="center"/>
+
+                <Space
+                    android:id="@+id/space1"
+                    android:layout_width="match_parent"
+                    android:layout_height="77.5dp" />
+
+                <TextView
+                    android:id="@+id/gameView"
+                    android:text="@string/turn_x"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:textColor="#f8f8f2"
+                    android:textSize="30sp" />
+
+                <Space
+                    android:id="@+id/space1_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="42.5dp" />
+
+                <TableRow
+                    android:id="@+id/row1"
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp">
+
+                    <Space
+                        android:id="@+id/space2"
+                        android:layout_width="49dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Space
+                        android:id="@+id/space3"
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Space
+                        android:id="@+id/space4"
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row2"
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp">
+
+                    <Space
+                        android:id="@+id/space5"
+                        android:layout_width="49dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Space
+                        android:id="@+id/space6"
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Space
+                        android:id="@+id/space7"
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row3"
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp">
+
+                    <Space
+                        android:id="@+id/space8"
+                        android:layout_width="49dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Space
+                        android:id="@+id/space9"
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Space
+                        android:id="@+id/space10"
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </TableRow>
+
+                <Space
+                    android:id="@+id/space11"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp" />
+
+                <TableRow
+                    android:id="@+id/row4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Space
+                        android:id="@+id/space12"
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageButton
+                        android:id="@+id/newGame"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#00ff0000"
+                        app:srcCompat="@android:drawable/ic_menu_revert"
+                        tools:ignore="ContentDescription" />
+                </TableRow>
+            </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

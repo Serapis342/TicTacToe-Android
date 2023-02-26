@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="turn_x">X ist an der Reihe</string>
+    <string name="turn_o">O ist an der Reihe</string>
+    <string name="winner_x">X hat dieses Spiel gewonnen</string>
+    <string name="winner_o">O hat dieses Spiel gewonnen</string>
+    <string name="winner_xo">Gleichstand</string>
+</resources>

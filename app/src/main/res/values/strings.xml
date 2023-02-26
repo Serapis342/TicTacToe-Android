@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">TicTacToe</string>
+    <string name="turn_x" >It\'s X turn</string>
+    <string name="turn_o">It\'s O turn</string>
+    <string name="winner_x">X won this game</string>
+    <string name="winner_o">O won this game</string>
+    <string name="winner_xo">Tie</string>
+</resources>

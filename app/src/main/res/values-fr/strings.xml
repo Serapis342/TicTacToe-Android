@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="turn_x">C\'est au tour de X</string>
+    <string name="turn_o">C\'est au tour de O</string>
+    <string name="winner_x">X a gagné ce jeu</string>
+    <string name="winner_o">O a gagné ce jeu</string>
+    <string name="winner_xo">Attacher</string>
+</resources>
